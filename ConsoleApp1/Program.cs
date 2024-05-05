@@ -9,7 +9,7 @@
 
             int[] valori = new int[lunghezza];
            
-            Console.WriteLine("inserisci "+ lunghezza + " valori interi");
+            Console.WriteLine("inserisci "+ lunghezza + "     valori interi");
             for (int i = 0;i< lunghezza; i++)
                 valori[i] = Int32.Parse(Console.ReadLine());
 
