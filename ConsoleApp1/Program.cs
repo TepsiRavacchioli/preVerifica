@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            int[] valori = { 19, 44, 38, 15, 40 };
+            int[] valori =new int[5];
+            Console.WriteLine("inserisci 5 valori interi");
+            for (int i = 0;i<5; i++)
+                valori[i] = Int32.Parse(Console.ReadLine());
+
             int iMin = 0;
             for (int i = 0; i <= valori.Length - 1; i++)
             {
