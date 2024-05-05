@@ -4,9 +4,13 @@
     {
         static void Main(string[] args)
         {
-            int[] valori =new int[5];
-            Console.WriteLine("inserisci 5 valori interi");
-            for (int i = 0;i<5; i++)
+            Console.WriteLine("Quale vuoi che sia la lunghezza dell'array?");
+            int lunghezza = Convert.ToInt32(Console.ReadLine());
+
+            int[] valori = new int[lunghezza];
+           
+            Console.WriteLine("inserisci "+ lunghezza + " valori interi");
+            for (int i = 0;i< lunghezza; i++)
                 valori[i] = Int32.Parse(Console.ReadLine());
 
             int iMin = 0;
