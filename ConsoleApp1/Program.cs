@@ -14,8 +14,8 @@
             
 
             int[] valori = new int[lunghezza];
-           
-            Console.WriteLine("inserisci "+ lunghezza + " valori interi");
+           if(lunghezza>0){
+ Console.WriteLine("inserisci "+ lunghezza + " valori interi");
             for (int i = 0;i< lunghezza; i++)
                 valori[i] = Int32.Parse(Console.ReadLine());
 
@@ -35,6 +35,8 @@
             Console.WriteLine("I valori inseriti, ordinati in modo crescente sono:");
             foreach (int a in valori)
                 Console.Write($"{a} ");
+           }
+           
         }
     }
 }
