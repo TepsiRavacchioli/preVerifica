@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             int lunghezza = 0; 
+            
             try{
                 Console.WriteLine("Quale vuoi che sia la lunghezza dell'array?");
                 lunghezza = Convert.ToInt32(Console.ReadLine());
