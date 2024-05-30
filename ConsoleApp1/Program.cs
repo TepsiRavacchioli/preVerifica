@@ -8,6 +8,7 @@
             try{
                 Console.WriteLine("Quale vuoi che sia la lunghezza dell'array?");
                 lunghezza = Convert.ToInt32(Console.ReadLine());
+                
             }catch(Exception ex){
                 Console.WriteLine("ERRORE "+ex);
             }
