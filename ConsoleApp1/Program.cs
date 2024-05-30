@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             int lunghezza = 0; 
+            Console.WriteLine("Andrea magi è stato qui");
             
             try{
                 Console.WriteLine("Quale vuoi che sia la lunghezza dell'array?");
